@@ -1,8 +1,9 @@
+/* Nav Bar */
 nav{
     margin: 0;
     position: static;
     width: 100%;
-    height: auto;
+    height: 10px;
     display: flex;             /* Use flexbox layout */
     justify-content: space-between; /* Distribute items evenly */
     list-style-type: none;    /* Remove bullet points */
@@ -27,6 +28,7 @@ nav{
         a{
             text-decoration: none;
             display: inline;
+            color: rgb(22, 22, 63);
         }
 
   
@@ -53,32 +55,121 @@ nav{
 
 }
 
+/* Call Now btn*/
 .buttonMenu{
     margin-right: 80px;
     margin-top: 20px;
 }
 
+/* Body */
+
+/* First Section */
 .main{
-    padding-top: 200px;
-    background-color: aqua;
     height: 500px;
-    background-image: url(assets/abstract-background-with-colorful-wave-can-be-used-presentations-wallpapers-websites_14117-313327.avif);
     background-size:cover;
 
 }
 
+    /* First Section Text */
+    .mainText{
+        width: 800px;
+        height: 450px;
+        h1{
+            font-size: 5rem;
+            padding-top: 100px;
+            margin-left: 50px;
+            margin-bottom: 0;
+        }
+
+        h5{
+            margin-left: 50px;
+            font-size: 1.5rem ;
+            padding-top: 0;
+            font-weight: 100;
+        }
+
+        button{
+            margin-left: 50px;
+            font-size: large;
+            height: 45px;
+            width: 130px;
+            border-radius: 40px;
+            border: none;
+            background-color: rgb(158, 63, 253);
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+            a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+
+        button:hover{
+            box-shadow: inset 150px 0 0 0 black;
+        }
+
+    }
+
+/* All Sections (below) Titles */
 h6{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.plans{
-    h6{
-        font-size: medium;
+#Services{
+
+    .title{
+        text-align: center;
+    }
+
+    .plansSection{
+
+        /* background-color: blue; */
+
+        display: inline-block;
+        width: 100%;
+
+        .plan{
+            /* background-color: cadetblue; */
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 500px;
+            margin-left: 100px;
+        }
+
+        h6{
+            font-size: medium;
+        }
     }
 }
 
 .Experience{
     background-color: rgb(22, 22, 63);
     color: white;
+
+    .ETitle{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 2rem;
+        
+    }
+
+    .secEcp{
+        text-align: center;
+        column-count: 3;
+        column-gap: 30px;
+        h2{
+            font-size: 4rem;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+
+        p{
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+    }
+
 
 }
