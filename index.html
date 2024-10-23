@@ -73,15 +73,21 @@
 
     </section>
 
-    <section id="About">
+    <section id="About" >
 
-        <div class="sect1">
-            <h6>About</h6>
+        <div class="about">
 
-            <p>At McKenzie Parker-Benn Accounting, we specialize in providing comprehensive accounting solutions tailored to meet the unique needs of businesses and individuals. Our services encompass everything from bookkeeping and financial reporting to tax preparation and strategic financial planning. With a commitment to accuracy, integrity, and personalized service, we help clients navigate complex financial landscapes, optimize their tax strategies, and achieve their financial goals.</p>
-            <p>Our experienced team of professionals is dedicated to delivering reliable, efficient, and insightful accounting services that drive growth and ensure compliance, empowering our clients to focus on what they do best.</p>
+            <div class="sect1">
+                <h6>About</h6>
+
+                <div class="aboutText">
+                    <p>At McKenzie Parker-Benn Accounting, we specialize in providing comprehensive accounting solutions tailored to meet the unique needs of businesses and individuals. Our services encompass everything from bookkeeping and financial reporting to tax preparation and strategic financial planning. With a commitment to accuracy, integrity, and personalized service, we help clients navigate complex financial landscapes, optimize their tax strategies, and achieve their financial goals.</p>
+                    <p>Our experienced team of professionals is dedicated to delivering reliable, efficient, and insightful accounting services that drive growth and ensure compliance, empowering our clients to focus on what they do best.</p>
+                </div>
+            </div>
+            <div class="sect2">d</div>
+
         </div>
-        <div class="sect2"></div>
 
     </section>
 
@@ -106,18 +112,57 @@
     </section>
 
     <section id="Contact">
-        <h6>Contact</h6>
 
-        <div class="info">
-            <p>Suffolk, VA 23434</p>
-            <p>info@mckenzieparker-benn.com</p>
-            <p>Tel: +1-877-317-1344</p>
+        <div class="basicContact">
+            <h6>Contact</h6>
+
+            <div class="info">
+                <p>Suffolk, VA 23434</p>
+                <p>info@mckenzieparker-benn.com</p>
+                <p>Tel: +1-877-317-1344</p>
+            </div>
         </div>
 
-        <form action=""></form>
+        <form action="" class="contactForm">
+            <h3>Contact Form</h3>
+            <div class="formItems">
+                <p>First Name*</p>
+                <input type="text" id="fname" placeholder="First Name" required> 
+                <p>Last Name*</p>
+                <input type="text" id="lname" placeholder="Last Name" required>
+                <p>Email Address*</p>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <p>Phone Number*</p>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+
+                <div class="entity">
+                    <p>Entity Type</p>
+                    <input type="radio" name="pickE" id="" required> Individual
+                    <input type="radio" name="pickE" id=""> Small Business ( 1 - 500 Employees)
+                    <input type="radio" name="pickE" id=""> Large Business ( 500+ Employees)
+                </div>
+
+                <div class="checkboxOptions">
+                    <p>What services are you interested in?</p>
+                
+                    <input type="checkbox" name="pickS" id=""> Taxes
+                    <input type="checkbox" name="pickS" id=""> Noteary
+                    <input type="checkbox" name="pickS" id="other-btn" onclick="OtherBtn()"> Other
+                    <br>
+                        <input type="text" id="otherText" placeholder="Type Here" style="display: none;">
+
+                </div>
+                
+                <p>Any extra information?</p>
+                <textarea name="message" id="" rows="8"></textarea>
+
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
 
     </section>
-
+<script src="script.js"></script>
 </body>
 <footer>
     <div>

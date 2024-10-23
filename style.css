@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 /* Nav Bar */
 nav{
     margin: 0;
@@ -147,6 +150,7 @@ h6{
 .Experience{
     background-color: rgb(22, 22, 63);
     color: white;
+    height: 450px;
 
     .ETitle{
         text-align: center;
@@ -156,6 +160,7 @@ h6{
     }
 
     .secEcp{
+        padding-top: 120px;
         text-align: center;
         column-count: 3;
         column-gap: 30px;
@@ -172,4 +177,57 @@ h6{
     }
 
 
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+
+    .sect1{
+        width: 45%;
+        padding: 120px 0px 50px 100px;
+        height: auto;
+
+        p{
+            padding: 50px 100px 0 0;
+            padding-top: 50px;
+            font-size: large;
+            line-height: 50px;
+            text-indent: 4em;
+        }
+
+
+        
+
+    }
+
+    .sect2{
+        width: 55%;
+        height: 900px;
+        background-color: aquamarine;
+    }
+}
+
+#Contact{
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+
+    .basicContact{
+        width: 45%;
+        padding: 120px 0px 50px 100px;
+        .info{
+            font-size: large;
+        }
+
+        .title{
+            
+        }
+
+    }
+
+    .contactForm{
+        width: 55%;
+    }
 }
