@@ -18,3 +18,25 @@ Social media:
     Snapchat: If you're targeting younger clients, it can be a fun way to share quick tips or updates in a more casual format.
 
     Choosing the right platforms will depend on your target audience and the type of content you want to share. It's also important to maintain a consistent brand voice and engage with your audience regularly.
+
+
+
+
+Reference Websites:
+
+https://getelephantcpa.com/?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8mPisaVxHTPIp-URAFcGvBNc9b2M8jNCp0mQSrpMRYQo1-JUkDOiBhoCViIQAvD_BwE
+    - site setup is what I am looking for
+
+https://www.eataxservice.com
+    - services and some setup
+
+https://www.sbrcpas.com
+
+
+Programming Languages
+
+Html/CSS/Javascript
+
+
+MEAN = MongoDB + Express.js + Angular + Node.js
+MERN = MongoDB + Express.js + React.js + Node.js <-- nowadays people prefer React over Angular
