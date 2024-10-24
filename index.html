@@ -14,7 +14,7 @@
 
             <div class="menu">
                 <li><a href="#Home">Home</a></li>
-                <li><a href="#Services">Sevices</a></li>
+                <li><a href="#Services">Services</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Testimonials">Testimonials</a></li>
                 <li><a href="#Contact">Contact</a></li>
@@ -41,7 +41,7 @@
         <div class="plansSection">
             <div class="plan">
                 <h6>Business Plans</h6>
-                <p>Provide strategic advice, identify opportunities, steamline processes, and optimize growth strategies.</p>
+                <p>Provide strategic advice, identify opportunities, streamline processes, and optimize growth strategies.</p>
             </div>
 
             <div class="plan">
@@ -51,7 +51,7 @@
 
             <div class="plan">
                 <h6>Finance Optimization</h6>
-                <p>Analyze financial data, reduce costs, enchance profitability, and improve cash flow.</p>
+                <p>Analyze financial data, reduce costs, enhance profitability, and improve cash flow.</p>
             </div>
         </div>
 
@@ -65,7 +65,7 @@
                 <h2>20</h2>
                 <p>Years of Accounting Experience</p>
                 <h2>10</h2>
-                <p>Years of Tax Prepartion Experience</p>
+                <p>Years of Tax Preparation Experience</p>
                 <h2>5</h2>
                 <p>Years of Business Start-up Experience</p>
             </div>
@@ -95,19 +95,36 @@
         <h6>Testimonials</h6>
         <div class="slideshow">
 
-            <h1>“Reliable service, saved us time and money.”</h1>
-            <p class="name">Josh Phillips</p>
-            <p class="company"></p>
+            <div class="slide">
+                <q>Reliable service, saved us time and money.</q>
+                <p class="name">Josh Phillips</p>
+                <p class="company"></p>
+            </div>
 
-            <h1>“Exceptional service, reliable advice, and trusted expertise.”</h1>
-            <p class="name">Shawnda Ashley</p>
-            <p class="company">Ruby Love's Southern Cooking</p>
+            <div class="slide">
+                <q>Exceptional service, reliable advice, and trusted expertise.</q>
+                <p class="name">Shawnda Ashley</p>
+                <p class="company">Ruby Love's Southern Cooking</p>
+            </div>
 
-            <h1>“Saved me money and simplified my taxes!”</h1>
-            <p class="name">Louise Maxwell</p>
-            <p class="company"></p>
+            <div class="slide">
+                <q>Saved me money and simplified my taxes!</q>
+                <p class="name">Louise Maxwell</p>
+                <p class="company"></p>
+            </div>
 
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+            <!-- Dots/bullets/indicators -->
+            <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+
 
     </section>
 
@@ -146,7 +163,7 @@
                     <p>What services are you interested in?</p>
                 
                     <input type="checkbox" name="pickS" id=""> Taxes
-                    <input type="checkbox" name="pickS" id=""> Noteary
+                    <input type="checkbox" name="pickS" id=""> Notary
                     <input type="checkbox" name="pickS" id="other-btn" onclick="OtherBtn()"> Other
                     <br>
                         <input type="text" id="otherText" placeholder="Type Here" style="display: none;">
@@ -164,14 +181,14 @@
     </section>
 <script src="script.js"></script>
 </body>
-<footer>
-    <div>
+<footer class="footer">
+    <div class="socials">
         <ul>facebook</ul>
         <ul>instagram</ul>
         <ul>linkedin</ul>
         <ul>twitter</ul>
         <ul>tiktok</ul>
     </div>
-    <p>© 2024 McKenzie Parker-Benn & Assoicates. All rights reserved. Unauthorized duplication or publication of any materials from this site is prohibited.</p>
+    <p>© 2024 McKenzie Parker-Benn & Associates. All rights reserved. Unauthorized duplication or publication of any materials from this site is prohibited.</p>
 </footer>
 </html>
