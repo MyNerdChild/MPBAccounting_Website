@@ -1,12 +1,19 @@
 *{
     margin: 0;
 }
+
+/* Company Name */
+.companyName{
+    align-content: center;
+    padding-left: 50px;
+}
+
 /* Nav Bar */
 nav{
     margin: 0;
     position: static;
     width: 100%;
-    height: 10px;
+    height: 100px;
     display: flex;             /* Use flexbox layout */
     justify-content: space-between; /* Distribute items evenly */
     list-style-type: none;    /* Remove bullet points */
@@ -36,7 +43,7 @@ nav{
 
   
     }
-    /* TODO: Need to fix*/
+
     button{
         font-size: large;
         height: 50px;
@@ -58,22 +65,28 @@ nav{
 
 }
 
-/* Call Now btn*/
-.buttonMenu{
-    margin-right: 80px;
-    margin-top: 20px;
+/* Call Us Section */
+.callUs{
+    width: 400px;
+    height: 100px;
+    font-size: 1.4rem;
+    align-content: center;
 }
 
-/* Body */
+.phoneNum{
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
 
-/* First Section */
+/* Home */
+
 .main{
     height: 500px;
     background-size:cover;
 
 }
 
-    /* First Section Text */
+    /* Home Text */
     .mainText{
         width: 800px;
         height: 450px;
@@ -118,6 +131,7 @@ h6{
     font-size: 1.2rem;
 }
 
+/* Service Section */
 #Services{
 
     .title{
@@ -147,6 +161,7 @@ h6{
     }
 }
 
+/* Experience Section */
 .Experience{
     background-color: rgb(22, 22, 63);
     color: white;
@@ -179,6 +194,7 @@ h6{
 
 }
 
+/* About Section */
 .about{
     display: flex;
     flex-direction: row;
@@ -210,14 +226,20 @@ h6{
 }
 
 /* Testimonials Section */
+.titleT{
+    text-align: center;
+    color: rgb(22, 22, 63);
+}
 
 /* Slideshow container */
 .slideshow {
     position: relative;
     background: #f1f1f1f1;
 
-     /* Slides */
-     .slide {
+
+
+    /* Slides */
+    .slide {
         display: none;
         padding: 80px;
         text-align: center;
@@ -280,36 +302,121 @@ h6{
     
     /* Add a blue color to the author */
     .name {color: cornflowerblue;}
-  }
+}
   
-
 /* Contact Section */
-
 #Contact{
     display: flex;
     flex-direction: row;
     height: 700px;
-    background-color: #717171;
+    background-color: salmon;
+
 
     .basicContact{
         width: 45%;
         padding: 120px 0px 50px 100px;
+
         .info{
             font-size: large;
-        }
-
-        .title{
-            
         }
 
     }
 
     .contactForm{
         width: 55%;
+
+        .title{
+            text-align: center;
+            font-size: larger;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 }
 
-.footer{
-    background-color: aqua;
+.formItems{
 
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ddd;
+    height: 600px;
+    width: 600px;
+
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 80px;
+
+    border: #717171;
+    border-radius: 24px;
+
+    h6{
+        font-size: large;
+        padding-bottom: 10px;
+    }
+}
+
+.contactInfo{
+    column-count: 2;
+    width: 500px;
+    margin-left: 5%;
+}
+
+.entity{
+    padding-top: 20px;
+
+    h6{
+        font-size: large;
+        padding-bottom: 10px;
+    }
+}
+
+.optionE{
+    height: auto;
+    padding-bottom: 20px;
+
+    .pick{
+        margin-bottom: 7px;
+    }
+
+}
+
+.serviceChioces{
+    h6{
+        font-size: large;
+        padding-bottom: 10px;
+    }
+}
+
+.serviceOptions{
+    column-count: 4;
+    padding-bottom: 20px;
+
+    .pick{
+        margin-bottom: 7px;
+    }
+}
+
+.messageText{
+    font-size: 1.1rem;
+}
+
+.messageArea{
+    width: 95%;
+    height: 25%;
+
+}
+
+.submit-btn{
+    margin: 40px;
+    margin-left: 40%;
+
+    width: 100px;
+
+}
+
+/* Footer */
+.footer{
+    font-size: small;
+    text-align: center;
 }

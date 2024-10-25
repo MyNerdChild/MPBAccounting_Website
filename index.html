@@ -10,8 +10,7 @@
 <body>
     <section class="Home">
         <nav>
-            <h4>MPB Accounting</h4>
-
+            <h4 class="companyName">MPB Accounting</h4>
             <div class="menu">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Services">Services</a></li>
@@ -20,20 +19,15 @@
                 <li><a href="#Contact">Contact</a></li>
             </div>
 
-            <div class="buttonMenu">
-            <button id="button"><a href="tel:+1-877-317-1344">Call Now</a></button></div>
-
+            <p class="callUs">Call Us Today! <b class="phoneNum">+1(877)-317-1344</b></p>
         </nav>
 
-    
         <div class="main">
             <div class="mainText">
                 <h1>The Power <br> of Good Advice</h1>
                 <h5>Seeking to help you manage your finances</h5>
-                <button><a href="#Services">Learn More</a></button>
             </div>
         </div>
-
     </section>
 
     <section id="Services">
@@ -57,8 +51,7 @@
 
     </section>
 
-    <section>
-
+    <section id="Experience">
         <div class="Experience">
             <h4 class="ETitle">We're Good with Numbers</h4>
             <div class="secEcp">
@@ -74,25 +67,20 @@
     </section>
 
     <section id="About" >
-
         <div class="about">
-
             <div class="sect1">
-                <h6>About</h6>
-
+                <h6 class="title">About</h6>
                 <div class="aboutText">
                     <p>At McKenzie Parker-Benn Accounting, we specialize in providing comprehensive accounting solutions tailored to meet the unique needs of businesses and individuals. Our services encompass everything from bookkeeping and financial reporting to tax preparation and strategic financial planning. With a commitment to accuracy, integrity, and personalized service, we help clients navigate complex financial landscapes, optimize their tax strategies, and achieve their financial goals.</p>
                     <p>Our experienced team of professionals is dedicated to delivering reliable, efficient, and insightful accounting services that drive growth and ensure compliance, empowering our clients to focus on what they do best.</p>
                 </div>
             </div>
-            <div class="sect2">d</div>
-
+            <div class="sect2"></div>
         </div>
-
     </section>
 
     <section id="Testimonials">
-        <h6>Testimonials</h6>
+        <h6 class="titleT">Testimonials</h6>
         <div class="slideshow">
 
             <div class="slide">
@@ -124,71 +112,97 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-
-
     </section>
 
     <section id="Contact">
-
         <div class="basicContact">
-            <h6>Contact</h6>
+            <h6 class="title">Contact Details</h6>
 
             <div class="info">
                 <p>Suffolk, VA 23434</p>
                 <p>info@mckenzieparker-benn.com</p>
                 <p>Tel: +1-877-317-1344</p>
             </div>
+
+            <div class="socials">
+                <ul>facebook</ul>
+                <ul>instagram</ul>
+                <ul>linkedin</ul>
+                <ul>twitter</ul>
+                <ul>tiktok</ul>
+            </div>
+
         </div>
 
         <form action="" class="contactForm">
-            <h3>Contact Form</h3>
+            <h3 class="title">Contact Form</h3>
             <div class="formItems">
-                <p>First Name*</p>
-                <input type="text" id="fname" placeholder="First Name" required> 
-                <p>Last Name*</p>
-                <input type="text" id="lname" placeholder="Last Name" required>
-                <p>Email Address*</p>
-                <input type="email" id="email" placeholder="Email Address" required>
-                <p>Phone Number*</p>
-                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <h6>Contact Information</h6>
+
+                <div class="contactInfo">
+                    <p>First Name*</p>
+                    <input type="text" id="fname" placeholder="First Name" required> 
+                    <p>Last Name*</p>
+                    <input type="text" id="lname" placeholder="Last Name" required>
+                    <p>Email Address*</p>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <p>Phone Number*</p>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
 
                 <div class="entity">
-                    <p>Entity Type</p>
-                    <input type="radio" name="pickE" id="" required> Individual
-                    <input type="radio" name="pickE" id=""> Small Business ( 1 - 500 Employees)
-                    <input type="radio" name="pickE" id=""> Large Business ( 500+ Employees)
+                    <h6>Entity Type</h6>
+                    <div class="optionE">
+                        <input type="radio" name="pickE" class="pick" required> Individual
+                        <br>
+                        <input type="radio" name="pickE" class="pick"> Small Business ( 1 - 500 Employees)
+                        <br>
+                        <input type="radio" name="pickE" class="pick"> Large Business ( 500+ Employees)
+                    </div>
                 </div>
 
-                <div class="checkboxOptions">
-                    <p>What services are you interested in?</p>
-                
-                    <input type="checkbox" name="pickS" id=""> Taxes
-                    <input type="checkbox" name="pickS" id=""> Notary
-                    <input type="checkbox" name="pickS" id="other-btn" onclick="OtherBtn()"> Other
-                    <br>
-                        <input type="text" id="otherText" placeholder="Type Here" style="display: none;">
-
+                <div class="serviceChioces">
+                    <h6>What services are you interested in?</h6>
+                    <div class="serviceOptions">
+                        <input type="checkbox" name="pickS" class="pick"> Taxes
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" class="pick"> Notary
+                        <br>
+                        <input type="checkbox" name="pickS" id="other-btn" onclick="OtherBtn()"> Other
+                        <br>
+                            <input type="text" id="otherText" placeholder="Type Here" style="display: none;">
+                    </div>
                 </div>
-                
-                <p>Any extra information?</p>
-                <textarea name="message" id="" rows="8"></textarea>
 
-                <button type="submit">Submit</button>
+                <p class="messageText">Any extra information?</p>
+                <textarea name="message" class="messageArea"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
             </div>
 
         </form>
 
     </section>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 <footer class="footer">
-    <div class="socials">
-        <ul>facebook</ul>
-        <ul>instagram</ul>
-        <ul>linkedin</ul>
-        <ul>twitter</ul>
-        <ul>tiktok</ul>
-    </div>
     <p>© 2024 McKenzie Parker-Benn & Associates. All rights reserved. Unauthorized duplication or publication of any materials from this site is prohibited.</p>
 </footer>
 </html>
