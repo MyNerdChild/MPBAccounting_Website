@@ -37,6 +37,7 @@ nav{
         li{
             display: inline-block;         /* Make items inline */
             width: 10%;
+    
         }
 
         a{
@@ -90,19 +91,20 @@ nav{
 
     /* Home Text */
     .mainText{
-        width: 800px;
-        height: 350px;
-        color: aliceblue;
-        background-color: rgba(0,0,0,0.3);
+        width: 700px;
+        height: 500px;
+        color: white;
+        background-color: rgba(0,0,0,0.4);
+        font-weight: bold;
         h1{
             font-size: 5rem;
             padding-top: 100px;
-            margin-left: 50px;
+            margin-left: 80px;
             margin-bottom: 0;
         }
 
         h5{
-            margin-left: 50px;
+            margin-left: 80px;
             font-size: 1.5rem ;
             padding-top: 0;
             font-weight: 100;
